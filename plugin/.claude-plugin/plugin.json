@@ -1,0 +1,9 @@
+{
+  "name": "canal",
+  "version": "0.1.0",
+  "description": "Workflow d'agentic engineering : spec → stories → plan → build (implementer ⇄ reviewer) → ship, avec des gates humains aux moments clés.",
+  "author": {
+    "name": "jdumaz"
+  },
+  "repository": "https://github.com/jdumaz/canal"
+}
