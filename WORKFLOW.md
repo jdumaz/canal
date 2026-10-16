@@ -4,6 +4,8 @@ canal guide un flux de travail fluide vers un résultat structuré. Les agents a
 là où c'est sûr, et l'humain reprend la main aux « écluses » : les moments où une décision
 engage la suite.
 
+![Le flux canal : spec, stories, plan, build et ship, séparés par les écluses spec validée, découpage validé, plan validé et merge](docs/images/flux-canal.png)
+
 ## Vue d'ensemble
 
 ```
