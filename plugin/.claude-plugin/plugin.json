@@ -5,5 +5,6 @@
   "author": {
     "name": "jdumaz"
   },
-  "repository": "https://github.com/jdumaz/canal"
+  "repository": "https://github.com/jdumaz/canal",
+  "license": "MIT"
 }

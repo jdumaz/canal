@@ -13,7 +13,6 @@ Le détail de la méthode est dans [WORKFLOW.md](WORKFLOW.md).
 
 - [Claude Code](https://claude.com/claude-code)
 - [`gh`](https://cli.github.com/), authentifié (`gh auth login`)
-- Un accès git au dépôt `jdumaz/canal` (SSH ou HTTPS), car le dépôt est privé
 
 ## Installation
 
@@ -40,8 +39,7 @@ dans `.claude/settings.json`.
 /plugin marketplace update canal
 ```
 
-Le dépôt est privé : la mise à jour automatique en arrière-plan nécessite un `GITHUB_TOKEN`
-dans l'environnement. Sans ce token, lancez la commande ci-dessus à la main.
+Vous pouvez aussi activer la mise à jour automatique de la marketplace depuis `/plugin`.
 
 ## Commandes
 
@@ -90,3 +88,7 @@ Le nom n'apparaît qu'à quelques endroits :
 Dans chaque projet déjà configuré, relancez ensuite `/<nouveau>:setup`. Il réécrit le bloc
 d'`AGENTS.md` et `.claude/settings.json`. Les labels, les branches et les dossiers `docs/`
 ne contiennent pas le nom et restent inchangés.
+
+## Licence
+
+[MIT](LICENSE)
